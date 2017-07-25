@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'faraday', '>= 0.6', '< 0.11'
-  spec.add_dependency 'newrelic_rpm', '~> 3'
+  spec.add_dependency 'newrelic_rpm', '>= 3'
 
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec', '~> 3.1'
